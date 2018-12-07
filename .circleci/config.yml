@@ -2,7 +2,7 @@ version: 2
 jobs:
  build:
    docker:
-	- image: srcml/ubuntu_x86_84_base
+	- image: srcml/ubuntu_x86_64_base
    steps:
 	- checkout
 	- run: cd video_store && make tests
